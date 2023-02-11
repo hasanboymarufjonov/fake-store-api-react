@@ -5,14 +5,18 @@ import Product from "./components/Product";
 import Products from "./components/Products";
 import ProductInfo from "./components/ProductInfo";
 import { Routes } from "react-router-dom";
+import Customer from "./components/Customer";
+import Home from "./components/Home";
+import SignIn from "./components/SignIn";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-
-      <Products />
-      <Product />
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/customer" element={<Customer />}></Route>
+        <Route exact path="/sign-in" element={<SignIn />}></Route>
+      </Routes>
     </div>
   );
 }

@@ -4,10 +4,11 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Shop", href: "#", current: false },
-  { name: "Products", href: "#", current: false },
-  { name: "Info", href: "#", current: false },
+  { name: "All", href: "/", current: true },
+  { name: "Today's Deal", href: "#", current: false },
+  { name: "Customer Service", href: "/customer", current: false },
+  { name: "Gift Cards", href: "#", current: false },
+  { name: "Sign-In", href: "/sign-in", current: false },
 ];
 
 function classNames(...classes) {
@@ -44,6 +45,7 @@ const Navbar = () => {
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
                   /> */}
+                  <p className="text-white text-xl font-bold">Fake Store</p>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
