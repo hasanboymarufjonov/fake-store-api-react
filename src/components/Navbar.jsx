@@ -9,6 +9,7 @@ const navigation = [
   { name: "Customer Service", href: "/customer", current: false },
   { name: "Gift Cards", href: "#", current: false },
   { name: "Sign-In", href: "/sign-in", current: false },
+  { name: "Sign-Up", href: "/sign-up", current: false },
 ];
 
 function classNames(...classes) {

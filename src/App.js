@@ -8,6 +8,7 @@ import { Routes } from "react-router-dom";
 import Customer from "./components/Customer";
 import Home from "./components/Home";
 import SignIn from "./components/SignIn";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/customer" element={<Customer />}></Route>
         <Route exact path="/sign-in" element={<SignIn />}></Route>
+        <Route exact path="/sign-up" element={<SignUp />}></Route>
       </Routes>
     </div>
   );
