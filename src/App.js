@@ -9,10 +9,8 @@ import { Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/product:" element={<ProductInfo />} />
-      </Routes>
       <Navbar />
+
       <Products />
       <Product />
     </div>
