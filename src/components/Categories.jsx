@@ -45,7 +45,7 @@ const Categories = () => {
                   href="#"
                   class="text-gray-900 dark:text-white hover:underline"
                 >
-                  Company
+                  Electronics
                 </a>
               </li>
               <li>
@@ -53,7 +53,7 @@ const Categories = () => {
                   href="#"
                   class="text-gray-900 dark:text-white hover:underline"
                 >
-                  Team
+                  Men's Clothes
                 </a>
               </li>
               <li>
@@ -61,7 +61,7 @@ const Categories = () => {
                   href="#"
                   class="text-gray-900 dark:text-white hover:underline"
                 >
-                  Features
+                  Women's Clothes
                 </a>
               </li>
             </ul>
