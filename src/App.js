@@ -9,6 +9,8 @@ import Customer from "./components/Customer";
 import Home from "./components/Home";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
+import Categories from "./components/Categories";
+import Jewelry from "./components/Categories/Jewelry";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           path="/product/:productID"
           element={<ProductInfo />}
         ></Route>
+        <Route exact path="/category/jewelry" element={<Jewelry />}></Route>
+        {/* <Route exact path="/category/jewelry" element={<Categories />}></Route> */}
         <Route exact path="/sign-in" element={<SignIn />}></Route>
         <Route exact path="/sign-up" element={<SignUp />}></Route>
       </Routes>
