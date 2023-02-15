@@ -199,8 +199,8 @@ const Footer = () => {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="sr-only">Dribbble account</span>
             </a>
+            <span class="sr-only">Dribbble account</span>
           </div>
         </div>
       </footer>
