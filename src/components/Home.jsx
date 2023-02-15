@@ -2,12 +2,14 @@ import React from "react";
 import Categories from "./Categories";
 import Navbar from "./Navbar";
 import Product from "./Product";
+import Products from "./Products";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <Categories />
+      <Products />
+      {/* <Categories /> */}
       <Product />
     </div>
   );
