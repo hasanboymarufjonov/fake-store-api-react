@@ -31,7 +31,7 @@ const Product = () => {
 
   if (loading) {
     return (
-      <div className="mt-14 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div className="mt-32 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 mx-40">
         <div
           role="status"
           class="max-w-sm p-4 border border-gray-200 rounded shadow animate-pulse md:p-6 dark:border-gray-700"
@@ -50,7 +50,11 @@ const Product = () => {
           <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+          <div className="flex justify-between">
+            <div class="h-9 w-20 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+            <div class="h-9 w-28 bg-gray-200 rounded-lg dark:bg-gray-700"></div>
+          </div>
           {/* <div class="flex items-center mt-4 space-x-3">
             <svg
               class="text-gray-200 w-14 h-14 dark:text-gray-700"
@@ -90,7 +94,11 @@ const Product = () => {
           <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+          <div className="flex justify-between">
+            <div class="h-9 w-20 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+            <div class="h-9 w-28 bg-gray-200 rounded-lg dark:bg-gray-700"></div>
+          </div>
           {/* <div class="flex items-center mt-4 space-x-3">
             <svg
               class="text-gray-200 w-14 h-14 dark:text-gray-700"
@@ -130,7 +138,11 @@ const Product = () => {
           <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+          <div className="flex justify-between">
+            <div class="h-9 w-20 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+            <div class="h-9 w-28 bg-gray-200 rounded-lg dark:bg-gray-700"></div>
+          </div>
           {/* <div class="flex items-center mt-4 space-x-3">
             <svg
               class="text-gray-200 w-14 h-14 dark:text-gray-700"
@@ -170,7 +182,11 @@ const Product = () => {
           <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+          <div className="flex justify-between">
+            <div class="h-9 w-20 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+            <div class="h-9 w-28 bg-gray-200 rounded-lg dark:bg-gray-700"></div>
+          </div>
           {/* <div class="flex items-center mt-4 space-x-3">
             <svg
               class="text-gray-200 w-14 h-14 dark:text-gray-700"
@@ -210,7 +226,11 @@ const Product = () => {
           <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+          <div className="flex justify-between">
+            <div class="h-9 w-20 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+            <div class="h-9 w-28 bg-gray-200 rounded-lg dark:bg-gray-700"></div>
+          </div>
           {/* <div class="flex items-center mt-4 space-x-3">
             <svg
               class="text-gray-200 w-14 h-14 dark:text-gray-700"
@@ -250,7 +270,11 @@ const Product = () => {
           <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+          <div className="flex justify-between">
+            <div class="h-9 w-20 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+            <div class="h-9 w-28 bg-gray-200 rounded-lg dark:bg-gray-700"></div>
+          </div>
           {/* <div class="flex items-center mt-4 space-x-3">
             <svg
               class="text-gray-200 w-14 h-14 dark:text-gray-700"
@@ -290,7 +314,11 @@ const Product = () => {
           <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+          <div className="flex justify-between">
+            <div class="h-9 w-20 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+            <div class="h-9 w-28 bg-gray-200 rounded-lg dark:bg-gray-700"></div>
+          </div>
           {/* <div class="flex items-center mt-4 space-x-3">
             <svg
               class="text-gray-200 w-14 h-14 dark:text-gray-700"
@@ -330,7 +358,11 @@ const Product = () => {
           <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
           <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+          <div className="flex justify-between">
+            <div class="h-9 w-20 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+            <div class="h-9 w-28 bg-gray-200 rounded-lg dark:bg-gray-700"></div>
+          </div>
           {/* <div class="flex items-center mt-4 space-x-3">
             <svg
               class="text-gray-200 w-14 h-14 dark:text-gray-700"
