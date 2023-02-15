@@ -392,19 +392,19 @@ const Product = () => {
       <div className="mx-auto max-w-2xl py-2 px-4 sm:py-8 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="grid grid-cols-1 gap-y-20 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
-            <div key={product.id} className="group relative flex  ">
-              <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div key={product.id} className="group relative flex">
+              <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-">
                 <Link to={"/product/" + product.id}>
                   <img
-                    className="p-8 w-full object-center"
+                    className="p-8 w-full object-center h-80 object-cover"
                     src={product.image}
                     alt="product image"
                   />
                 </Link>
 
-                <div className="px-5 pb-5">
+                <div className="px-5 pb-5 mb-0">
                   <a href="#">
-                    <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                    <h5 className="text-base font-semibold tracking-tight text-gray-900 dark:text-white">
                       {product.title}
                     </h5>
                   </a>
